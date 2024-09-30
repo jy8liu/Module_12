@@ -1,31 +1,33 @@
+-- Insert into the department table
 INSERT INTO department(name)
-VALUES ('Information Technology'),
-       ('Human Resources'),
-       ('Retail'),
-       ('Logistics'),
-       ('Accounting');
+VALUES ('Marketing'),
+       ('Sales'),
+       ('Customer Service'),
+       ('Engineering'),
+       ('Finance');
 
-
+-- Insert into the role table
 INSERT INTO role(title, salary, department_id)
-VALUES ('IT Technician', 75000, 1),
-       ('HR Associate', 70000, 2),
-       ('Cashier', 31000, 3),
-       ('Warehouse Worker', 32000, 4),
-       ('Accountant', 80000, 5),
-       ('IT Manager', 90000, 1),
-       ('HR Manager', 85000, 2),
-       ('Retail Manager', 78000, 3),
-       ('Warehouse Manager', 76000, 4),
-       ('Accounting Manager', 82000, 5);
+VALUES ('Marketing Specialist', 65000, 1),
+       ('Sales Representative', 60000, 2),
+       ('Customer Support Agent', 40000, 3),
+       ('Software Engineer', 95000, 4),
+       ('Financial Analyst', 78000, 5),
+       ('Marketing Manager', 88000, 1),
+       ('Sales Manager', 85000, 2),
+       ('Customer Service Manager', 62000, 3),
+       ('Engineering Manager', 105000, 4),
+       ('Finance Manager', 92000, 5);
 
+-- Insert into the employee table
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES ('John', 'Deere', 1, 2),
-       ('Jack', 'Sparrow', 6, NULL),
-       ('Snow', 'White', 2, 4),
-       ('Jane', 'Doe', 7, NULL),
-       ('Gordon', 'Ramsay', 3, 6),
-       ('Marco Pierre', 'White', 8, NULL),
-       ('Michael', 'Jordan', 4, 8),
-       ('Lebron', 'James', 9, NULL),
-       ('Larry', 'Bird', 5, 10),
-       ('Magic', 'Johnson', 10, NULL);
+VALUES ('Emily', 'Blunt', 1, 6),
+       ('Chris', 'Hemsworth', 6, NULL),
+       ('Scarlett', 'Johansson', 2, 7),
+       ('Robert', 'Downey', 7, NULL),
+       ('Tom', 'Holland', 3, 8),
+       ('Mark', 'Ruffalo', 8, NULL),
+       ('Benedict', 'Cumberbatch', 4, 9),
+       ('Chadwick', 'Boseman', 9, NULL),
+       ('Paul', 'Rudd', 5, 10),
+       ('Jeremy', 'Renner', 10, NULL);
