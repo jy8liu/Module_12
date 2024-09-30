@@ -27,16 +27,16 @@
   ## Screenshots
 
     This is the main interface.
-  ![A Screenshot of the main interface](./Assets/main.png)
+  ![A Screenshot of the main interface](./assets/main.png)
 
     This is the department table after selecting view all departments.
-  ![A Screenshot of the department table](./Assets/department.png)
+  ![A Screenshot of the department table](./assets/department.png)
 
     This is the role table after selecting view all roles.
-  ![A Screenshot of the role table](./Assets/role.png)
+  ![A Screenshot of the role table](./assets/role.png)
 
     This is the employee table after selecting view all employees.
-  ![A Screenshot of the employee table](./Assets/employee.png)
+  ![A Screenshot of the employee table](./assets/employee.png)
 
   ## License 
   ### Badge 
