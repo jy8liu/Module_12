@@ -22,7 +22,7 @@
 
   ### Video Walkthrough
   
-  [Click Here](https://youtu.be/GvMGH85vDrw)
+  [Click Here](https://drive.google.com/file/d/1psUgeyQy6MqjGqWglkKtIBCo_wP1BucU/view?usp=sharing)
   
   ## Screenshots
 
